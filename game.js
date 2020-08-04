@@ -41,7 +41,7 @@ function animatePress(currentColour){
 }
 
 //indetifies first press
-$(document).click(function(){
+$(document).keydown(function(){
     if(!start){
         nextSequence();
         $("h1").html("Level " + level); 
